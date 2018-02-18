@@ -594,8 +594,7 @@ public class GameForm extends JFrame {
 
                         if (!doubleTip && specField == 1 && !shiftDown && clickButton == 1 &&
                             ((selectedFields == 0 && (fields[i2][j2].getBackground() == Color.gray ||
-                            fields[i2][j2].getBackground() == (new Color(210, 111, 210, 12)) ||
-                            fields[i2][j2].getBackground() == (new Color(210, 123, 210, 121)))) ||
+                            fields[i2][j2].getBackground() == Color.orange)) ||
                             (selectedFields == 1 && fields[i2][j2].getBackground() == Color.pink))) {
 
                             if (selectedFields == 0) {
